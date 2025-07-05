@@ -14,8 +14,8 @@ const ProductCard = ({ product }) => {
               key={i}
               className={
                 i <= Math.round(product.rating)
-                  ? 'star star-filled'
-                  : 'star star-empty'
+                  ? 'star-filled'
+                  : 'star-empty'
               }
             >
               ★
