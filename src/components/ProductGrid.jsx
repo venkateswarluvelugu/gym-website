@@ -24,7 +24,27 @@ const products = [
     price: "₹42,999",
     rating: 4.6,
     image: "https://images.pexels.com/photos/4944435/pexels-photo-4944435.jpeg"
-  }
+  },
+  {
+    id: 4,
+    name: "Dumbbells Set",
+    price: "₹1,999",
+    rating: 4.2,
+    image: "https://images.pexels.com/photos/2247179/pexels-photo-2247179.jpeg"
+  },{
+    id: 5,
+    name: "Cable Crossover Machine",
+    price: "₹25,999",
+    rating: 4.0,
+    image: "https://images.pexels.com/photos/3253498/pexels-photo-3253498.jpeg"
+  },{
+    id: 6,
+    name: "Multi Leg Extension Machine",
+    price: "₹19,999",
+    rating: 4.8,
+    image: "https://images.pexels.com/photos/136404/pexels-photo-136404.jpeg"
+  },
+  
 ];
 
 const ProductGrid = () => {
