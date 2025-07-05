@@ -1,0 +1,97 @@
+
+/* File: gym-website/src/components/ProductCard.css */
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+.product-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.product-name {
+  font-size: 19.2px;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s;
+
+}
+.product-price {
+  font-weight: bold;
+  color: green;
+  margin-bottom: 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+
+}
+.product-rating .star {
+  color: gold;
+  font-size: 16px;
+  margin-right: 2px;
+
+}
+.product-rating .star .filled {
+  color: gold;
+  font-size: 16px;
+  margin-right: 2px;
+  transition: color 0.3s;
+  cursor: pointer;
+
+}
+.product-rating .star .empty {
+  color: lightgray;
+  font-size: 16px;
+  margin-right: 2px;
+
+} 
+
+
+.product-buttons .btn {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+
+}
+.btn-red {
+  background-color: crimson;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-red:hover {
+  background-color: darkred;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-outline {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.btn-outline:hover {
+  background-color: #f0f0f0;
+  color: #000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
